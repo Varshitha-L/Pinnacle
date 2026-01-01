@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     double balance = 1000.0;
     int choice;
