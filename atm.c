@@ -3,7 +3,6 @@ int main() {
     double balance = 1000.0;
     int choice;
     double amt;
-
     printf("===== Simple Banking System =====\n");
 
     do {
