@@ -13,7 +13,6 @@ int main() {
         printf("------------------------------\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-
         switch (choice) {
             case 1:
                 printf("Current Balance: ₹%.2lf\n", balance);
