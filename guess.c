@@ -10,5 +10,6 @@ int main() {
         if(guess<num) printf("Too low!\n");
         else if(guess>num) printf("Too high!\n");
         else printf("Correct!\n");
-    } while(guess!=num);
+    } 
+        while(guess!=num);
 }
