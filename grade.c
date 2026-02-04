@@ -1,4 +1,4 @@
-    #include <stdio.h>
+#include <stdio.h>
 int main() {
     int n; printf("Enter number of subjects: "); scanf("%d",&n);
     float marks[n], sum=0;
