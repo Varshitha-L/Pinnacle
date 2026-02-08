@@ -1,10 +1,8 @@
-#include <stdio.h>
+8#include <stdio.h>
 #include <ctype.h>
 int main() {
     char ans;
-    int score = 0;
-
-    // Question bank
+    int score=0;
     char *questions[] = {
         "Q1: Capital of India?",
         "Q2: 2 + 2 = ?",
