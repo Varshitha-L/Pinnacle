@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <ctype.h>
-
 int main() {
     char ans;
     int score = 0;
