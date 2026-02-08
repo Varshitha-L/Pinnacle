@@ -8,7 +8,6 @@ int main() {
         "Q2: 2 + 2 = ?",
         "Q3: Largest planet in the Solar System?"
     };
-
     char *options[] = {
         "a. Delhi   b. Mumbai",
         "a. 3       b. 4",
