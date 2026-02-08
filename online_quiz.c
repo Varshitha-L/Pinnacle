@@ -13,7 +13,6 @@ int main() {
         "a. 3       b. 4",
         "a. Jupiter b. Mars"
     };
-
     char correct[] = { 'a', 'b', 'a' };
     int total = sizeof(correct) / sizeof(correct[0]);
 
