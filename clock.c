@@ -14,7 +14,7 @@ int main()
         fflush(stdout);
         if(tm->tm_hour==alarmH && tm->tm_min==alarmM)
  {
-            printf("\nAlarm ringing!\n"); break;
+            printf("\nAlarm ringing!\n");        break;
         }
         sleep(1);
     }
