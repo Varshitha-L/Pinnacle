@@ -10,7 +10,8 @@ int main() {
         struct tm *tm=localtime(&t);
         printf("\r%02d:%02d:%02d", tm->tm_hour, tm->tm_min, tm->tm_sec);
         fflush(stdout);
-        if(tm->tm_hour==alarmH && tm->tm_min==alarmM) {
+        if(tm->tm_hour==alarmH && tm->tm_min==alarmM)
+ {
             printf("\nAlarm ringing!\n"); break;
         }
         sleep(1);
