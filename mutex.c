@@ -2,7 +2,6 @@
 #include <pthread.h>
 #include <unistd.h>
 #include <stdlib.h>
-
 #define MAX 5
 #define NUM_PRODUCERS 2
 #define NUM_CONSUMERS 2
