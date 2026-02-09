@@ -6,7 +6,6 @@ int main() {
     scanf(" %c", &op);
     printf("Enter two numbers: ");
     scanf("%lf %lf", &a, &b);
-
     switch(op) {
         case '+': printf("Result = %.2lf\n", a+b); break;
         case '-': printf("Result = %.2lf\n", a-b); break;
@@ -18,4 +17,5 @@ int main() {
         default: printf("Invalid operator\n");
     }
     return 0;
+
 }
