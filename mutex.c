@@ -7,7 +7,6 @@
 #define NUM_CONSUMERS 2
 int buffer[MAX];
 int in = 0, out = 0, count = 0;
-
 pthread_mutex_t lock;
 pthread_cond_t not_full, not_empty;
 
