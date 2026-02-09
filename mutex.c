@@ -5,7 +5,6 @@
 #define MAX 5
 #define NUM_PRODUCERS 2
 #define NUM_CONSUMERS 2
-
 int buffer[MAX];
 int in = 0, out = 0, count = 0;
 
