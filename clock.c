@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 #include <unistd.h>
-int main() {
+int main() 
+{
     int alarmH, alarmM;
     printf("Set alarm (HH MM): ");
     scanf("%d %d",&alarmH,&alarmM);
