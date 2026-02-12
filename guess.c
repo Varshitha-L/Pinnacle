@@ -5,7 +5,8 @@ int main()
 {
     srand(time(0));
     int num=rand()%100+1, guess;
-    do {
+    do
+        {
         printf("Guess (1-100): ");
         scanf("%d",&guess);
         if(guess<num) printf("Too low!\n");
