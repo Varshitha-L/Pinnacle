@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int main() {
+int main()
+{
     srand(time(0));
     int num=rand()%100+1, guess;
     do {
